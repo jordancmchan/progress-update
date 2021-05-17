@@ -1,7 +1,6 @@
 .App {
   font-size: 62.5%;
-  background-color: #f4f3ee;
-  height: 100vh;
+  background-color: #8A817C;
 
   .wrapper{
     max-width: 80%;
@@ -10,18 +9,23 @@
   }
 
   header{
-    display:flex;
-    justify-content: space-around;
     margin-bottom: 20px;
     h1{
       margin: 0;
       font-size: 2rem;
+      color:#463F3A;
     }
 
     .status{
-      background-color: #BCB8B1;
+      display:flex;
+      justify-content: space-around;
+      align-items: center;
+      position: fixed;
+      background-color: #F4F3EE;
       font-size: 1rem;
-      padding: 10px;
+      width: 100vw;
+      top: 0;
+      z-index: 9999;
       h2{
         margin: 0;
       }
@@ -29,6 +33,7 @@
   }
 
   .projectComponentContainer{
+    padding-top: 10vh;
     display:flex;
     flex-direction: column;
     .projectContainer{
@@ -39,26 +44,51 @@
         display:flex;
         justify-content: space-between;
         width: 70%;
-        background-color: #E0AFA0;
+        background-color: #463F3A;
         padding: 20px;
-  
+        border-radius: 25px;
+
         .screenShotContainer{
           max-width: 35%;
+          filter: grayscale(80%);
+          transition: 0.8s;
           img{
             width: 100%;
+            transition: 0.8s;
+            border-radius: 10px;
+
+          }
+          &:hover{
+            filter: none;
+
+            img{
+              transform:scale(1.05)
+            }
           }
         }
+
   
         .contentDesContainer{
           font-size: 1rem;
           width: 40%;
+          color: white;
+          h2{
+            text-decoration: underline 2px solid #E0AFA0;
+          }
         }
         
         .infoContainer{
           font-size: 1rem;
+          color: white;
           nav{
+            a{
+              color: white;
+              &:hover{
+                color: #E0AFA0;
+              }
+            }
             li{
-              list-style: none;
+              list-style: none; 
             }
           }
         }

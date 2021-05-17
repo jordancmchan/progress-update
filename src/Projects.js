@@ -22,7 +22,6 @@ const Projects = () => {
                             <div className="infoContainer">
                                 <p>Uploaded On: {challenge.date}</p>
                                 <nav>
-                                    <li>github link</li>
                                     <a href={challenge.liveLink}>
                                     <li>Live Link</li>
                                     </a>

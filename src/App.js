@@ -7,10 +7,9 @@ function App() {
   console.log(javascriptChallenges.length)
   return (
     <div className="App ">
-      <header className="wrapper">
-      <h1>What I'm Working On</h1>
-      <div className="status">
-        <h2>Currently working on:</h2>
+      <header>
+      <div className="status ">
+        <h1>Currently working on:</h1>
         <p>Javascript 30 day vanilla coding challenge</p>
         <p>{javascriptChallenges.length}/30</p>
         <a href="https://javascript30.com">SOURCE</a>
