@@ -4,7 +4,6 @@ import Projects from './Projects.js'
 
 
 function App() {
-  console.log(javascriptChallenges.length)
   return (
     <div className="App ">
       <header>
