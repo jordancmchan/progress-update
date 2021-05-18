@@ -15,6 +15,11 @@ function App() {
       </div>
       </header>
         <Projects />
+        <footer>
+          <div className="projectHeader">
+            <p>Project SummaPunch coming soon</p>
+          </div>
+        </footer>
     </div>
   );
 }

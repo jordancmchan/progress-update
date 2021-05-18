@@ -36,6 +36,8 @@
         font-weight:bold;
       }
     }
+
+    
   }
 
   .projectComponentContainer{
@@ -106,7 +108,19 @@
         }
       }
     }
-
+  }
+  footer{
+    .projectHeader{
+      position:fixed;
+      bottom:0;
+      background-color: #E0AFA0;
+      width: 100vw;
+      p{
+        text-align:center;
+        margin:0;
+        font-size: 0.7rem;
+      }
+    }
   }
 }
 
