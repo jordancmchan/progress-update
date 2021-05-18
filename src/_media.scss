@@ -1,0 +1,46 @@
+@media (max-width: 1200px){
+    .App{
+        .projectComponentContainer{
+            .projectContainer{
+                .contentContainer{
+                    .contentDesContainer{
+                        text-align:center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px){
+    .App{
+        .projectComponentContainer{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            .projectContainer{
+                .contentContainer{
+                    flex-direction: column;
+                    width: 80%;
+                    .screenShotContainer{
+                        max-width: 100%;
+                    }
+                    .contentDesContainer{
+                        width: 100%;
+                        h2{
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 450px){
+    .App{
+        .projectComponentContainer{
+            padding-top: 18vh;
+            grid-template-columns: 1fr;
+        }
+    }
+}

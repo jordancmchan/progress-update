@@ -26,6 +26,8 @@
       width: 100vw;
       top: 0;
       z-index: 9999;
+      border-bottom: 1.5px solid #463F3A;
+
       h2{
         margin: 0;
       }
@@ -51,6 +53,7 @@
         background-color: #463F3A;
         padding: 20px;
         border-radius: 25px;
+        border: 1.5px solid #E0AFA0;
 
         .screenShotContainer{
           max-width: 35%;
@@ -78,12 +81,17 @@
           color: white;
           h2{
             text-decoration: underline 2px solid #E0AFA0;
+            margin:0;
           }
         }
         
         .infoContainer{
           font-size: 1rem;
           color: white;
+
+          p{
+            margin-top: 0;
+          }
           nav{
             a{
               color: white;
@@ -101,3 +109,5 @@
 
   }
 }
+
+@import "media"
