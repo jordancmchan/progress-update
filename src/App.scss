@@ -27,6 +27,9 @@
       top: 0;
       z-index: 9999;
       border-bottom: 1.5px solid #463F3A;
+      transition: 0.5s;
+
+      
 
       h2{
         margin: 0;
@@ -36,7 +39,9 @@
         font-weight:bold;
       }
     }
-
+    .hide{
+      transform: translateY(-100%);
+    }
     
   }
 

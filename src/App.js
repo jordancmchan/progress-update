@@ -6,6 +6,19 @@ import {Helmet} from "react-helmet";
 
 
 function App() {
+  
+  window.addEventListener('scroll', toggleHide)
+  
+  function toggleHide(){
+    const headerStatus = document.querySelector('.status');
+    if (window.pageYOffset > 100){
+      console.log(headerStatus)
+      headerStatus.classList.add('hide');
+    }else{
+      headerStatus.classList.remove('hide')
+    }
+  }
+
   return (
     <div className="App ">
       <Helmet>
