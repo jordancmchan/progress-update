@@ -2,10 +2,15 @@ import './App.scss';
 import javascriptChallenges from './javascriptChallenge.js'
 import Projects from './Projects.js'
 
+import {Helmet} from "react-helmet";
+
 
 function App() {
   return (
     <div className="App ">
+      <Helmet>
+        <title>Progress Page - Jordan Chan</title>
+      </Helmet>
       <header>
       <div className="status ">
         <h1>Currently working on:</h1>
