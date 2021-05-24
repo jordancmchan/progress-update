@@ -4,7 +4,7 @@ import javascript03 from './assets/javascript03.png'
 import javascript04 from './assets/javascript04.png'
 import javascript05 from './assets/javascript05.png'
 import javascript06 from './assets/javascript06.png'
-
+import javascript08 from './assets/javascript08.png'
 
 const javascriptChallenges = [
     {image: javascript01 , title: 'Javascript DrumKit', description: 'Created a javascript drumkit by connecting audio drum sounds to event listeners on the keyboard', liveLink: 'https://stoic-feynman-96a430.netlify.app', key: '1', date: "May 16 2021" },
@@ -13,7 +13,8 @@ const javascriptChallenges = [
     {image: javascript04 , title: 'Javascript Array Cardio Day 1', description: 'This excercise has me practice different array functions such as filter, map, reduce and sort', liveLink: 'https://stoic-noyce-724815.netlify.app', key: '4', date: "May 17 2021" },
     {image: javascript05 , title: 'Flex Panel Gallery', description: 'A fun excercise that focuses on the usage of flexbox  and toggle classlist to add animations to text and images', liveLink: 'https://hungry-snyder-9755d5.netlify.app/', key: '5', date: "May 19 2021" },
     {image: javascript06 , title: 'Ajax Type Ahead with fetch()', description: 'An excercise using fetch() to grab cities, state and population and match user input. A great refresh on fetch, replace, and the usage of regex ', liveLink: 'https://musing-beaver-6284ce.netlify.app', key: '6', date: "May 21 2021" },
-    {image: javascript04 , title: 'Javascript Array Cardio Day 2', description: 'An informative lesson on some function not familiar to me. Functions include some(), every(), find(), findIndex(). I can definitely see the potential usage for some of the new learned functions', liveLink: 'https://lucid-hypatia-88eed5.netlify.app', key: '7', date: "May 23 2021" }
+    {image: javascript04 , title: 'Javascript Array Cardio Day 2', description: 'An informative lesson on some function not familiar to me. Functions include some(), every(), find(), findIndex(). I can definitely see the potential usage for some of the new learned functions', liveLink: 'https://lucid-hypatia-88eed5.netlify.app', key: '7', date: "May 23 2021" },
+    {image: javascript08 , title: 'Fun with HTML5 Canvas', description: 'A fun small project focusing on creating a live canvas on HTML page. I learned new methods such as getContext() and the list of properties that comes along with it. It also taught me different ways of changing the lineWidth and color of stroke', liveLink: 'https://quizzical-brown-8d4980.netlify.app', key: '8', date: "May 24 2021" },
 
 ];
 
