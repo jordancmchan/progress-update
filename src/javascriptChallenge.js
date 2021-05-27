@@ -6,6 +6,7 @@ import javascript05 from './assets/javascript05.png'
 import javascript06 from './assets/javascript06.png'
 import javascript08 from './assets/javascript08.png'
 import javascript09 from './assets/javascript09.png'
+import javascript10 from './assets/javascript10.png'
 
 
 const javascriptChallenges = [
@@ -18,6 +19,7 @@ const javascriptChallenges = [
     {image: javascript04 , title: 'Javascript Array Cardio Day 2', description: 'An informative lesson on some function not familiar to me. Functions include some(), every(), find(), findIndex(). I can definitely see the potential usage for some of the new learned functions', liveLink: 'https://lucid-hypatia-88eed5.netlify.app', key: '7', date: "May 23 2021" },
     {image: javascript08 , title: 'Fun with HTML5 Canvas', description: 'A fun small project focusing on creating a live canvas on HTML page. I learned new methods such as getContext() and the list of properties that comes along with it. It also taught me different ways of changing the lineWidth and color of stroke', liveLink: 'https://quizzical-brown-8d4980.netlify.app', key: '8', date: "May 24 2021" },
     {image: javascript09 , title: 'Dev Tool Domination', description: 'Small and quick excercise that focuses on different dev tools to console information. Console methods we looked at were interpolated, style, warning, error, table and many more', liveLink: 'https://thirsty-lewin-caca3f.netlify.app', key: '9', date: "May 25 2021" },
+    {image: javascript10 , title: 'Hold Shift and Check Checkboxes', description: 'The toughest challenge yet. This challenge gave me a deeper understanding of this and how to utilize it more often. The code itself is quite simple but wrapping my head around it took some time', liveLink: 'https://keen-bassi-b6cb0c.netlify.app', key: '10', date: "May 27 2021" },
 
 ];
 
