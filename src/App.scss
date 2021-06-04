@@ -42,7 +42,10 @@
     .hide{
       transform: translateY(-100%);
     }
-    
+    a:first-child{
+      font-weight: bolder;
+      color: red;
+    }
   }
 
   .projectComponentContainer{

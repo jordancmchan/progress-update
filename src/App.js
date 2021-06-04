@@ -28,6 +28,7 @@ function App() {
       <div className="status ">
         <h1>Currently working on:</h1>
         <p>Javascript 30 day vanilla coding challenge</p>
+        <p>Latest ongoing project: <a href="https://tender-lalande-60e8f8.netlify.app">Project SummaPunch</a></p>
         <p>{javascriptChallenges.length}/30</p>
         <a href="https://javascript30.com">SOURCE</a>
       </div>
@@ -35,7 +36,7 @@ function App() {
         <Projects />
         <footer>
           <div className="projectHeader">
-            <p>Project SummaPunch coming soon</p>
+            <p>Check out my latest ongoing project! <a href="https://tender-lalande-60e8f8.netlify.app">SummaPunch</a></p>
           </div>
         </footer>
     </div>
