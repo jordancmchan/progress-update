@@ -8,6 +8,7 @@ import javascript08 from './assets/javascript08.png'
 import javascript09 from './assets/javascript09.png'
 import javascript10 from './assets/javascript10.png'
 import javascript11 from './assets/javascript11.png'
+import javascript12 from './assets/javascript12.png'
 
 
 const javascriptChallenges = [
@@ -22,6 +23,7 @@ const javascriptChallenges = [
     {image: javascript09 , title: 'Dev Tool Domination', description: 'Small and quick excercise that focuses on different dev tools to console information. Console methods we looked at were interpolated, style, warning, error, table and many more', liveLink: 'https://thirsty-lewin-caca3f.netlify.app', key: '9', date: "May 25 2021" },
     {image: javascript10 , title: 'Hold Shift and Check Checkboxes', description: 'The toughest challenge yet. This challenge gave me a deeper understanding of this and how to utilize it more often. The code itself is quite simple but wrapping my head around it took some time', liveLink: 'https://keen-bassi-b6cb0c.netlify.app', key: '10', date: "May 27 2021" },
     {image: javascript11 , title: 'HTML Video Player', description: 'A very informative challenge based on HTML video player. I have never worked with video player yet so this challenge was a huge learning experience. I learned how to create basic functions on video player such as scrubbing, volume control and more!', liveLink: 'https://relaxed-blackwell-cfbb00.netlify.app', key: '11', date: "May 28 2021" },
+    {image: javascript12 , title: 'Key Sequence Detection', description: 'A simple but very informative excercise on how to detect key sequences from user and run a function once the sequence is correct ', liveLink: 'https://condescending-bartik-bcd371.netlify.app', key: '12', date: "June 7 2021" },
 
 ];
 
