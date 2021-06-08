@@ -20,7 +20,7 @@ const Projects = () => {
                                 <p>{challenge.description} </p>
                             </div>
                             <div className="infoContainer">
-                                <p>Uploaded On: {challenge.date}</p>
+                                {/* <p>Uploaded On: {challenge.date}</p> */}
                                 <nav>
                                     <a href={challenge.liveLink}>
                                     <li>Live Link</li>
