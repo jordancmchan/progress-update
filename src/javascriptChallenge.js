@@ -25,9 +25,10 @@ const javascriptChallenges = [
     {image: javascript10 , title: 'Hold Shift and Check Checkboxes', description: 'The toughest challenge yet. This challenge gave me a deeper understanding of this and how to utilize it more often. The code itself is quite simple but wrapping my head around it took some time', liveLink: 'https://keen-bassi-b6cb0c.netlify.app', key: '10', date: "May 27 2021" },
     {image: javascript11 , title: 'HTML Video Player', description: 'A very informative challenge based on HTML video player. I have never worked with video player yet so this challenge was a huge learning experience. I learned how to create basic functions on video player such as scrubbing, volume control and more!', liveLink: 'https://relaxed-blackwell-cfbb00.netlify.app', key: '11', date: "May 28 2021" },
     {image: javascript12 , title: 'Key Sequence Detection', description: 'A simple but very informative excercise on how to detect key sequences from user and run a function once the sequence is correct ', liveLink: 'https://condescending-bartik-bcd371.netlify.app', key: '12', date: "June 7 2021" },
-    {image: javascript13, title:  'Slide In On Scroll', description: 'I found this challenge particulary tough due to working in with different window methods. It took some time to wrap my head around what each window method represents and how they worked together to get the slide in animation wanted. Another really informative challenge ', liveLink: 'https://trusting-aryabhata-9adef6.netlify.app', key: '13', },
+    {image: javascript13 , title:  'Slide In On Scroll', description: 'I found this challenge particulary tough due to working in with different window methods. It took some time to wrap my head around what each window method represents and how they worked together to get the slide in animation wanted. Another really informative challenge ', liveLink: 'https://trusting-aryabhata-9adef6.netlify.app', key: '13', },
+    {image: javascript04 , title: 'Javascript Reference vs Copying', description: 'A small lesson on referencing vs copying. I learned some new techniques for copying arrays and objects ', liveLink: '', key: '14' },
 
 ];
 
 export default javascriptChallenges;
-// {image:  , title: '', description: '', liveLink: '', key: '4', date: "May 17 2021" },
+// {image:  , title: '', description: '', liveLink: '', key: '4'},
